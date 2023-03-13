@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #3b506c;
+}
+
+section {
+    overflow: hidden;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    box-shadow: rgb(33 35 38 / 32%) 0px 15px 20px -13px;
+    padding: 0 0 0px 0;
+    background-color: white;
+}
+
+.wrapper {
+    width: 1150px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+    padding-top: 10px;
+}
+
+.logo a {}
+
+.logo a img {
+    width: 120px;
+}
+
+nav {
+    width: 80%;
+    float: right;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 15px 0px 15px 25px;
+    display: inline-block;
+    color: #3b506c;
+    font-weight: 600;
+
+}
+
+/* banner section start */
+.banner-section {
+    padding: 100px 0;
+}
+
+.banner {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.banner h1 span {
+    color: #0c66ff;
+}
+
+.banner h1 {
+    font-size: 60px;
+    color: #3b506c;
+}
+
+.banner p {}
+
+.banner img {}
+
+/* successful section */
+.col-1-2 {
+    width: 45%;
+    float: left;
+    padding: 28px;
+}
+
+.col-1-2 h2 {
+    font-size: 50px;
+}
+
+.right {
+    text-align: right;
+}
+
+.client-number {
+    color: rgba(246, 37, 37, 0.918);
+}
+
+.col-1-2 p {}
+
+/* blog-section */
+.blog-section {
+    padding: 50px 0px;
+}
+
+.blogs {
+
+    float: left;
+
+    width: 33.33%;
+}
+
+.blog {
+    margin: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+    border-radius: 6px;
+
+}
+
+.blog img {
+    height: 300px;
+}
+
+.blog h3 {}
+
+.blog p {}
+
+/* footer start */
+footer {
+    padding: 44px 0 450px 0;
+    background-color: #8080803d;
+    color: #3b506c;
+}
+
+.footer-items {
+    width: 25%;
+    float: left;
+}
+
+.footer-content {
+    padding: 25px;
+}
+
+.footer-content h4 {
+    font-size: 26px;
+}
+
+.footer-content li {
+    list-style: none;
+    padding: 15px 0px;
+}
+
+.footer-content li a {
+    text-decoration: none;
+    color: #3b506c;
+}
